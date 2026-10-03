@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>IoT Monitoring Dashboard</title>
+</head>
+<body>
+  <h1>IoT Monitoring Dashboard</h1>
+  
+  <div>
+    <h2>Sensors</h2>
+    <p>Temperature: <span id="tempVal">--</span> °C</p>
+    <p>Humidity: <span id="humVal">--</span> %</p>
+    <p>Ambient Light: <span id="lightVal">--</span></p>
+  </div>
+  
+  <div>
+    <h2>Device Status</h2>
+    <p id="deviceStatus">Device offline</p>
+  </div>
+  
+  <div>
+    <h2>Controls</h2>
+    <button id="btnBulbOn">Turn Bulb ON</button>
+    <button id="btnBulbOff">Turn Bulb OFF</button>
+    <br><br>
+    <button id="btnModeManual">MANUAL Mode</button>
+    <button id="btnModeAuto">AUTO Mode</button>
+  </div>
+  
+  <div>
+    <h2>Historical Data</h2>
+    <button id="exportCsv">Export CSV</button>
+  </div>
+  
+  <!-- Firebase Scripts -->
+</body>
+</html>
